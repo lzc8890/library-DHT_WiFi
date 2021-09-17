@@ -5,9 +5,9 @@
 #include <Blinker.h>
 #include <DHT.h>
  
-char auth[] = "03e780c6cfd7";
-char ssid[] = "TP-LINK-2.4G";
-char pswd[] = "lzc000000";
+char auth[] = "点灯科技设备密钥";
+char ssid[] = "WIFI名";
+char pswd[] = "WIFI密码";
  
 BlinkerNumber HUMI("humi");
 BlinkerNumber TEMP("temp");
